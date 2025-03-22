@@ -1,0 +1,60 @@
+#containerLibros {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+}
+
+#containerLibros div {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 15px;
+    width: 200px;
+    transition: transform 0.2s;
+}
+
+#containerLibros div:hover {
+    transform: scale(1.05);
+}
+
+#containerLibros h3 {
+    font-size: 1.5em;
+    margin: 10px 0;
+}
+
+#containerLibros img {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+}
+
+#containerLibros p {
+    margin: 5px 0;
+    color: #555;
+}
+
+.boton {
+    /* margin: 15px; */
+    padding: 10px;
+    background-color: #007BFF;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+
+
+.libro-card {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 15px;
+    width: 200px;
+    transition: transform 0.2s;
+}
+
+.libro-card img {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    height: 200px;
+    width: 200px;
+}

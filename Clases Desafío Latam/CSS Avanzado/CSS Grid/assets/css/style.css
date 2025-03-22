@@ -1,0 +1,4 @@
+.grid-container{display: grid;
+grid-template-columns: auto auto auto; gap: 10px;}
+
+.grid-item img{border: solid black 1px;width: 300px; height: auto;}

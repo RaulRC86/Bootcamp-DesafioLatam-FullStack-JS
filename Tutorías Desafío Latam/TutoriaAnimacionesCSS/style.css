@@ -1,0 +1,77 @@
+@keyframes luz {
+  0% {
+    background-color: #ffffe0;
+  }
+  50% {
+    background-color: #ffa500;
+    transform: scale(1.5);
+  }
+  100% {
+    background-color: #add8e6;
+    transform: scale(2.5);
+  }
+}
+
+@keyframes disco {
+  from {background-color: #000;}
+  to {background-color: white;}
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background: url("./imagen/fondo.png") no-repeat center center; */
+  background-size: cover;
+  animation: disco 0.5s infinite;
+  animation-direction: alternate;
+}
+
+.habitacion {
+  height: 100%;
+  width: 200%;
+  display: flex;
+  justify-content: center;
+  margin-top: 50%;
+}
+
+.lampara {
+  color: black;
+  width: 100px;
+  height: 100px;
+  background-color: #000;
+  border: 1px solid white;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* border-radius: 50px; */
+  transition: all 1ms ease-in-out;
+  transform: rotate(45deg);
+  animation: luz 3s infinite;
+  animation-direction: alternate;
+}
+
+.lampara:active {
+  background-color: yellow;
+}
+
+/* ---------------------- Ejercicio: Lámpara decorativa --------------------- */
+
+/* ------------- Colocar la lampara centrada con bordes redondo ------------- */
+/* ------------- colocar el nombre centrado dentro de la lampara ------------- */
+/* ------------------ colocarle una transition a la lampara ----------------- */
+
+/* La lámpara debe ser representada por una caja de 100px por 100px. Utiliza */
+/* @keyframes para animar la lámpara de la siguiente manera:
+
+En el instante inicial (0%), la lámpara debe cambiar su color a un tono suave
+de amarillo, representando una luz tenue.
+En el instante intermedio (50%), la lámpara debe cambiar su color a un tono
+más cálido de naranja, intensiﬁcando la luminosidad.
+En el instante ﬁnal (100%), la lámpara debe cambiar su color a un azul suave,
+simbolizando una luz ambiental relajante. */

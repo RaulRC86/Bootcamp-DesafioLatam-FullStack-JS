@@ -1,0 +1,25 @@
+body{text-align: center;}
+header{grid-area: a; background-color: rgb(114, 114, 243);}
+aside{grid-area: b; background-color: rgb(214, 214, 255); font-size: larger; justify-content: center}
+aside p:hover{color: red;}
+main{grid-area: c;}
+footer{grid-area: d; background-color: rgb(114, 114, 243); font-size: larger; font-family: Georgia, 'Times New Roman', Times, serif;}
+.grid-container{height: 100vh; display: grid;
+grid-template-areas: "a a a a"
+                     "b c c c"
+                     "b c c c"
+                     "d d d d"; }
+.main-container{display: grid;
+                grid-template-columns: 2fr 2fr 2fr;
+                grid-auto-rows: 400px;
+                gap: 5px;}          
+img{width: 200px; height: 200px;}           
+
+.container {
+    display: flex;
+    height: auto;
+}
+
+.categorias{display: flex; flex-wrap: wrap; flex-direction: column; margin-bottom: 30px; margin-top: 10px;}
+
+.comprar{background-color: blue; color: white;padding: 5px; margin-inline: 150px; font-size: large;}

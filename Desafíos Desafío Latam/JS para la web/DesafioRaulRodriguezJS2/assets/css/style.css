@@ -1,0 +1,8 @@
+.bodyIMG{display: flex; justify-content: center; align-items: center; margin-top: 50px;}
+.bodyIMG img{width: 30vw; height: auto; border: none red;}
+h1{display: flex; justify-content: center;}
+.stickers{display: flex; max-width: 100vw; max-height: 100vh; justify-content: center;}
+.stickers img{height: 200px; width: auto;}
+.lógica{display: flex; justify-content: center;}
+button{margin-top: 20px;}
+.total{margin: 10px;}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./assets/css/estilos.css">
+  <title>LibrosExpress - Inicio</title>
+</head>
+
+<body>
+  <nav>
+    <a href="./venta.html">Libros en Venta</a>
+    <a href="camino.html">Libros en Camino</a>
+  </nav>
+  <h1>Encuentra aqui tu libro</h1>
+
+  <h2>Libros en Venta</h2>
+  <div id="librosEnVentaContainer"></div>
+  <a href="./venta.html" class="boton">Ver todos los libros en venta</a>
+
+  <h2>Libros en Camino</h2>
+  <div id="librosEnCaminoContainer"></div>
+  <a href="./camino.html" class="boton">Ver todos los libros en camino</a>
+
+
+  <script src="./assets/js/libros.js"></script>
+
+
+  <script type="module">
+    import { mostrarLibros } from './assets/js/index.js';
+    import { librosEnVenta, librosEnCamino } from './assets/js/libros.js';
+    mostrarLibros(librosEnVenta, "librosEnVentaContainer");
+    mostrarLibros(librosEnCamino, "librosEnCaminoContainer");
+  </script>
+</body>
+
+</html>

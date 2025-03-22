@@ -1,0 +1,11 @@
+#AgregarTarea {
+  background-color: green;
+  color: white;
+  padding: 10px;
+}
+
+#cuentaTareas p{font-weight: bold;}
+.boton{background: none; border: none;}
+
+#tareas{text-decoration: none; list-style-type: none ; padding: 0;}
+.tareaHead{margin-inline-start: 100px;}

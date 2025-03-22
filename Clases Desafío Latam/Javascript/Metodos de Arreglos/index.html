@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="text" name="" id="nuevoInvitado">
+    <button id="agregarInvitado">Agregar</button>
+    <h3>Invitados: </h3>
+    <ul id="Invitados"></ul>
+    <script>
+        const listaInvitados= document.querySelector("#Invitados")
+        const invitadoInput= document.querySelector("#nuevoInvitado")
+        const agregarInvitados= document.querySelector("#agregarInvitado")
+
+        const invitados= []
+
+        agregarInvitados.addEventListener('click', ()=>{
+            const nuevoInvitado=invitadoInput.value
+            invitados.push(nuevoInvitado)
+            invitadoInput.value=""
+            listaInvitados.innerHTML=invitados
+        }
+    )
+    </script>
+</body>
+</html>
