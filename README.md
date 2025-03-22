@@ -1,4 +1,4 @@
-# Bootcamp-DesafioLatam-FullStack-JS
+# Bootcamp Desafío Latam FullStack JS
 
 Hola 😊!
 
